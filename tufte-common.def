@@ -287,9 +287,6 @@
 
 \ifthenelse{\boolean{@tufte@xetex}}{%
   \RequirePackage{xltxtra}% xltxtra loads xunicode and fontspec; must be loaded before bidi
-  \setmainfont[Mapping=tex-text,Numbers=OldStyle]{ETBembo}
-  \setsansfont[Mapping=tex-text,Numbers=OldStyle,Scale=MatchLowercase]{Gill Sans}
-  \setmonofont[Mapping=tex-text,Scale=MatchLowercase]{DejaVu Sans Mono}
 }{}
 
 %%
